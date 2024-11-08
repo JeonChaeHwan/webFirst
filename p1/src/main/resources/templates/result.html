@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>설문 결과</title>
+<style>
+	body { background : whitesmoke; }
+	#box { background : darkblue; color : white; text-align : center; }
+	#s1 { background : mediumblue; color : white; }
+</style>
+</head>
+<body>
+	<h2 id="box">설문 결과</h2>
+	<h2><span id="s1" th:text="${mid}">mid</span>님은<p>
+	<span th:text="${fruitType}">fruitType</span>와<p>
+	<span th:text="${hobbyType}">hobbyType</span>를 선택하셨습니다!!!
+	</h2>
+</body>
+</html>

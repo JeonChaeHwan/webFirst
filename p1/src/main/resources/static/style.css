@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+body { background : whitesmoke ; }
+h2 { text-align : center; color : darkblue; }
+button { width: 80px; height : 40px;
+				  background : darkblue; color : white; }
+img { max-width : 400px; max-height : 400px; }	
+hr { border : solid 12px; color : darkblue; }
